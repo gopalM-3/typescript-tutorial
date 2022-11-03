@@ -1,0 +1,52 @@
+* {
+    font-family: "Kanit", sans-serif;
+}
+
+body {
+    background-color: #001d30;
+    color: #ffd902;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 1%;
+    width: 30%;
+    font-size: medium;
+    background-color: #ffd902;
+    color: #001d30;
+    border-radius: 7px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#form > input,
+#form > label {
+    margin: 7px;
+}
+
+#form > input {
+    background-color: #ffd902;
+    color: #001d30;
+    border-radius: 7px;
+}
+
+#list {
+    background-color: #e3061e;
+    width: 19.7%;
+    border-radius: 7px;
+}
